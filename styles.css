@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#101820;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:40px;
+    background:#1c2d5a;
+}
+
+header h1{
+    margin:0;
+    font-size:3rem;
+}
+
+.contenedor{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    background:#243b6b;
+    padding:20px;
+    border-radius:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#1c2d5a;
+}
